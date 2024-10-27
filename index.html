@@ -7,18 +7,13 @@
 </head>
 <body>
     <div id="app"></div>
+    <script scr="js/model.js"></script>
+    <script scr="js/view.js"></script>
+    <script scr="js/controller.js"></script>
+
     <script>
         updateView();
-        function updateView(){
-            let page = model.app.currentPage;
-            console.log('current page', page);
 
-            if (page === 'mainpage') {
-                console.log('Navigating to mainpageView');
-                mainpageView();
-            }
-
-        }
     </script>
 </body>
 </html>
